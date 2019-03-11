@@ -1,6 +1,6 @@
 #!/system/xbin/bash
 clear
-figlet Pengurangan| lolcat
+toilet -f slant "Pengurangan"
 echo "masukkan angka pertama"
 read p
 echo "masukkan angka kedua"
