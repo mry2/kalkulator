@@ -1,6 +1,6 @@
 #!/system/xbin/bash
 clear
-figlet Penambahan| lolcat
+toilet -f slant "Penambahan"
 echo "masukkan angka pertama"
 read p
 echo "masukkan angka kedua"
