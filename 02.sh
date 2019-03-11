@@ -15,7 +15,7 @@ read mrrm
 if
 [ $mrrm = 00 ] || [ $mrrm = 00 ]
 then
-sh pengurangan.sh
+sh 02.sh
 fi
 
 if
