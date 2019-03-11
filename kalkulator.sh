@@ -2,7 +2,7 @@
 clear
 figlet Kalkulator| lolcat
 sleep 1
-echo "\033[31;1m-->""\033[34;1m By: Kalong Cyber ""\033[31;1m<--"
+echo "\033[35;1m-->""\033[34;1m By: Kalong Cyber ""\033[35;1m<--"
 sleep 1
 echo "\033[32;1m Yang Tersedia :"
 echo "\033[35;1m1.""\033[36;1m Penambahan"
