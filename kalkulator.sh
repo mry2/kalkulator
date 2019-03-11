@@ -17,86 +17,25 @@ read mrrm
 if 
 [ $mrrm = 1 ] || [ $mrrm = 1 ]
 then
-clear
-toilet -f slant "Penambahan"
-echo "masukkan angka pertama"
-read p
-echo "masukkan angka kedua"
-read q
-tambah=$(echo "$p + $q" | bc)
-echo "hasil penambahan = $tambah"
-echo "\033[31;1m00. Kembali"
-
-read mrrm
-
-if
-[ $mrrm = 00 ] || [ $mrrm = 00 ]
-then
-sh kalkulator.sh
-fi
+sh 01.sh
 fi
 
 if
 [ $mrrm = 2 ] || [ $mrrm = 2 ]
 then
-clear
-toilet -f slant "Pengurangan"
-echo "masukkan angka pertama"
-read p
-echo "masukkan angka kedua"
-read q
-kurang=$(echo "$p - $q" | bc)
-echo "hasil pengurangan = $kurang"
-echo "\033[31;1m00. Kembali"
-read mrrm
-
-if
-[ $mrrm = 00 ] || [ $mrrm = 00 ]
-then
-sh kalkulator.sh
-fi
+sh 02.sh
 fi
 
 if 
 [ $mrrm = 3 ] || [ $mrrm = 3 ]
 then
-clear
-toilet -f slant "Perkalian"
-echo "masukkan angka pertama"
-read p
-echo "masukkan angka kedua"
-read q
-kali=$(echo "$p * $q" | bc)
-echo "hasil perkalian = $kali"
-echo "\033[31;1m00. Kembali"
-read mrrm
-
-if
-[ $mrrm = 00 ] || [ $mrrm = 00 ]
-then
-sh kalkulator.sh
-fi
+sh 03.sh
 fi
 
 if 
 [ $mrrm = 4 ] || [ $mrrm = 4 ]
 then
-clear
-toilet -f slant "Pembagian"
-echo "masukkan angka pertama"
-read p
-echo "masukkan angka kedua"
-read q
-bagi=$(echo "$p / $q" | bc)
-echo "hasil pembagian = $bagi"
-echo "\033[31;1m00. Kembali"
-read mrrm
-
-if
-[ $mrrm = 00 ] || [ $mrrm = 00 ]
-then
-sh kalkulator.sh
-fi
+sh 04.sh
 fi
 
 if
