@@ -1,6 +1,6 @@
 #!/system/xbin/bash
 clear
-figlet Pembagian| lolcat
+toilet -f slant "Pembagian"
 echo "masukkan angka pertama"
 read p
 echo "masukkan angka kedua"
