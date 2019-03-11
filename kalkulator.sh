@@ -2,7 +2,7 @@
 clear
 figlet Kalkulator| lolcat
 sleep 1
-echo "\033[35;1m-->""\033[34;1m By: Kalong Cyber ""\033[35;1m<--"
+echo "\033[31;1m-->""\033[34;1m By: Kalong Cyber ""\033[31;1m<--"
 sleep 1
 echo "\033[32;1m Yang Tersedia :"
 echo "\033[35;1m1.""\033[36;1m Penambahan"
@@ -10,7 +10,7 @@ echo "\033[35;1m2.""\033[36;1m Pengurangan"
 echo "\033[35;1m3.""\033[36;1m Perkalian"
 echo "\033[35;1m4.""\033[36;1m Pembagian"
 echo "\033[31;1m0. Keluar"
-echo "\033[37;1m81.""\033[30;1mInformasi Tool Ini"
+echo "\033[37;1m88.""\033[30;1mInformasi Tool Ini"
 echo "\033[33;1m Pilih Angka:"
 read mrrm
 
@@ -39,7 +39,7 @@ sh 04.sh
 fi
 
 if
-[ $mrrm = 81 ] || [ $mrrm = 81 ]
+[ $mrrm = 88 ] || [ $mrrm = 88 ]
 then
 clear
 figlet Kalkulator| lolcat
