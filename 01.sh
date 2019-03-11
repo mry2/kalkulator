@@ -15,7 +15,7 @@ read mrrm
 if
 [ $mrrm = 00 ] || [ $mrrm = 00 ]
 then
-sh penambahan.sh
+sh 01.sh
 fi
 
 if
