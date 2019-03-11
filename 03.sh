@@ -1,6 +1,6 @@
 #!/system/xbin/bash
 clear
-figlet Perkalian| lolcat
+toilet -f slant "Perkalian"
 echo "masukkan angka pertama"
 read p
 echo "masukkan angka kedua"
