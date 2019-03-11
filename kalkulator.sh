@@ -45,7 +45,7 @@ clear
 figlet Kalkulator| lolcat
 echo "\033[35;1mPemograman:""\033[36;1m Bash"
 sleep 1
-echo "\033[32;1mVersi: v1"
+echo "\033[32;1mVersi: v2"
 sleep 1
 echo "\033[36;1mTeam: Kalong Cyber"
 sleep 1
